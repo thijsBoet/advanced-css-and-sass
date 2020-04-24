@@ -29,6 +29,6 @@ Make website faster and smaller by:
 
 ### How CSS works behind the scenes
 Load HTML => Parse HTML => Build DOM
-          => Load CSS   => Parse CSS
+          => Load CSS   => Parse CSS    => Build CSS Object Model
                             - Conflicting CSS declarations are resolved through cascade
                             - Process final CSS values

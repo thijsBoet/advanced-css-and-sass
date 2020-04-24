@@ -26,3 +26,9 @@ Make website faster and smaller by:
 - Use a CSS preprocessor
 - Use less images
 - Compress images properly
+
+### How CSS works behind the scenes
+Load HTML => Parse HTML => Build DOM
+          => Load CSS   => Parse CSS
+                            - Conflicting CSS declarations are resolved through cascade
+                            - Process final CSS values

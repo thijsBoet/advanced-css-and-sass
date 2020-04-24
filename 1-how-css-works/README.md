@@ -1,8 +1,8 @@
 # How CSS works
 
-### Three pillars of writing good HTML and CSS
+## Three pillars of writing good HTML and CSS
 
-##### 1) Responsive Design
+### 1) Responsive Design
 Must work on all devices and all screen sizes. By using techniques like:
 - Fluid layouts
 - Media queries
@@ -10,7 +10,7 @@ Must work on all devices and all screen sizes. By using techniques like:
 - Correct units
 - Mobile first design
 
-##### 2) Maintainable and scalable
+### 2) Maintainable and scalable
 Code must be:
 - Clean
 - Easy to understand
@@ -20,7 +20,7 @@ Code must be:
 - Properly named, descriptive classes
 - Well structured HTML
 
-##### 3) Web Performance
+### 3) Web Performance
 Make website faster and smaller by:
 - Less HTTP requests
 - Less code

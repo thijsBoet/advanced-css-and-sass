@@ -36,4 +36,13 @@ RENDER TREE   Load HTML => Parse HTML                 => Build DOM
 ### Parsing CSS
 1. Resolving conflicting css declarations AKA the CASCADE
 
-**Cascade** -> *Process of combining different stylesheet and resolving conflicts between different CSS rules and declarations, when more than one rule applies to a certain element*
+**Cascade**
+*Process of combining different stylesheet and resolving conflicts between different CSS rules and declarations, when more than one rule applies to a certain element*
+
+### Importance                    =>    Specificity                   =>  Source Order
+1. User !important declarations         1. inline stylesheet              Last declaration will
+2. Author !important declarations       2. ID's                           override all other.
+1. Author                               3. classes, pseudo, attribute
+4. User                                 4. elements, pseudo-elements
+5. Default browser declarations         
+

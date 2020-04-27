@@ -34,3 +34,6 @@ RENDER TREE   Load HTML => Parse HTML                 => Build DOM
                                         - Process final CSS values
 
 ### Parsing CSS
+1. Resolving conflicting css declarations AKA the CASCADE
+
+Cascade -> *Process of combining different stylesheet and resolving conflicts between different CSS rules and declarations, when more than one rule applies to a certain element*
